@@ -1,0 +1,13 @@
+.no-margin {
+	margin: 0;
+}
+
+.margin-v4px {
+	/* set vertical margin to 4px */
+	margin: 4px 0;
+}
+
+.color-dimgray {
+	color: dimgray;
+}
+

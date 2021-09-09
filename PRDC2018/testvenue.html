@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <title>PRDC 2018</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="Access-Control-Allow-Origin" content="*">
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link href="slide.css" rel="stylesheet" type="text/css" />
+      <link href="images/PRDC.ico" rel="shortcut icon" />
+      <style>
+       #map {
+        height: 400px;
+        width: 70%;
+       }
+    </style>
+      <style type="text/css">
+         <!-- .STYLE1 {
+            font-size: 14px
+            }
+            -->
+  .inline-block {
+   display: inline-block;
+	}
+      </style>
+      <script>
+         $(function(){
+         	$("#header").load("header.html");
+         	$("#navigation").load("navigation.html");
+         });
+      </script>	
+   </head>
+   <body>
+      <div id="container">
+         <div id="header"></div>
+         <div id="navigation"></div>
+         <div id="content">
+            <p>
+               <font color="brown">
+            <h1>Venue</h1></font></p> 
+           
+            <p><font color="purple"><b>PRDC 2018</b></font> will take place at the <b>Activity Center of Academia Sinica</b>. Academia Sinica was founded in 1928 to promote and undertake scholarly research in sciences and humanities. After the government moved to Taiwan in 1949, Academia Sinica was re-established in Taipei. It currently consists of twenty-four research institutes and seven research centers covering three research disciplines of mathematics and physical sciences, life sciences, and humanities and social sciences. <br></br> Academia Sinica is the most preeminent academic research institution in Taiwan. Many of the twenty-four research institutes and seven research centers are headed by world-renowned scholars and staffed by highly trained, motivated, and creative young investigators. 
+             Aside from placing greater emphasis on opening up new areas of intellectual endeavor, Academia Sinica is also taking a leadership role in launching new initiatives in applied areas to meet a broad spectrum of social needs in Taiwan.  
+ 
+            <!--<script type="text/javascript" language="javascript">
+               var idxImage = 0;
+               var myImages = new Array("images/aca6.jpg", "images/aca1.jpg", "images/aca5.jpg");
+               var i = setInterval(changeImage, 2500);
+               function changeImage() { 
+                 idxImage++; 
+                 if (idxImage == myImages.length) idxImage=0; 
+                 document.getElementById('as').src=myImages[idxImage]; 
+               } 
+            </script>-->
+
+	<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/aca6.jpg" style="width:100%">
+    <div class="text">Academia Sinica Activity Center</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/aca1.jpg" style="width:100%">
+    <div class="text">Academia Sinica Activity Center</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/aca5.jpg" style="width:100%">
+    <div class="text">Academia Sinica Activity Center</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <br>
+  <br>
+
+<strong><center><mark>In the map shown below, the Activity Center building number is </mark><span style="font-size: 150%; color: #FF5722;">&#9331;</span></center></strong><br>
+ <div class="pic">
+    <div class="null">
+      <img src="images/AS.png" style="width:80%">
+  </div>
+</div>
+
+<br>
+Please click the link to know how you can roam in and around Academia Sinica. <a href="http://gis.sinica.edu.tw/asmap/asmap_english.html">Link Here</a>    
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>       
+            
+            
+ 			 <!--<div id="banner">
+    			<div class="inline-block">
+        			<img id="as" src="images/aca6.jpg"  width="650" border="5">
+    			</div>-->
+
+    			<!--<div class="inline-block">
+        			<img src="images/instas.jpg"  width="650" height ="432" border="5">
+    			</div>-->
+   		</div>
+			
+ 				<br><br />
+           <!-- <strong><center>Activity Center,  Academia Sinica, Taipei, Taiwan (In the map shown below, the activity Center building number is <span style="font-size: 150%; color: #FF5722;">&#9331;</span>)</center></strong><br>
+                <div style="text-align:center">
+            <img src="images/AS.png" style="width: 60%">
+                <br></br>
+              Please click the link to know how you can roam in and around Academia Sinica. <a href="http://gis.sinica.edu.tw/asmap/asmap_english.html">Link Here</a>    
+
+           </div> -->
+
+     
+            <h6>&nbsp;</h6>
+            <hr>
+         </div>
+         <div id="footer">
+            <p class="STYLE1">Copyright &copy; PRDC 2018</p>
+         </div>
+      </div>
+   </body>
+</html>

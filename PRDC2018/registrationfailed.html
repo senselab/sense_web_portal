@@ -1,0 +1,1586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PRDC 2015</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="images/PRDC.ico" rel="shortcut icon" />
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <table>
+    <td><img src="prdc2015-logo.jpg"></td>
+    <td>
+    <h1>The 21st IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2015)</h1>
+    <h2>Zhangjiajie, China <br>
+        November 18-20, 2015</h2>    </td>
+    </table>
+  </div>
+  <div id="navigation">
+    <ul id="navlist">
+           <li><a href="index.html">Top</a></li>
+      <li><a href="program.html">Program</a></li>
+      <li><a href="Keynote Speeches.html">Keynote Speeches</a></li>
+<li><a href="Panel.html">Panel</a></li>
+      <li><a href="registration.html">Registration<img src="images/little.gif"></a></li>
+      <li><a href="IEEE Author Kit.html">IEEE Author Kit<img src="images/little.gif" /></a>      
+      </li>
+     <li><a href="Hotel Reservation.html">Hotel Reservation<img src="images/little.gif" /></a></li>
+ <li><a href="Tour Reservation.html">Tour Reservation<img src="images/little.gif" /></a></li>
+      <li><a href="dates.html">Important Dates</a></li>
+ <li><a href="Proceedings & Special Issues.html">Proceedings & Special Issues</a></li>
+ <li><a href="VisaInfo.html">Visa Information & Invitation Letter</a></li>
+      <li><a href="cfp.html">Call for Papers</a></li>
+      <li><a href="cffa.html">Call for Fast Abstracts</a></li>
+      <li><a href="cfit.html">Call for Industry Track Papers</a></li>
+      <li><a href="cfposters.html">Call for Posters</a></li>
+      <li><a href="organizing-committee.html">Organizing Committee</a></li>
+      <li><a href="program-committee.html">Program Committee</a></li>
+      <li><a href="steering-committee.html">Steering Committee</a></li>
+     
+      <li><a href="related.html">Related Conferences</a></li>
+    </ul>
+  </div>
+  
+  <div id="content"  >
+    <h2>Your Registration has been <span style="color:#F00">FAILED</span>! Click <a href="registration.html">here</a> to return to registration page. </h2>
+    <p>&nbsp;</p>
+  </div>
+
+
+
+		<!--end band-->
+
+
+
+  <div id="tooltip"></div>
+
+		<div id="colourTooltip"></div>
+
+        
+
+        <!-- JS
+
+         ================================================== -->
+
+  <script src="javascripts/tabs.js"></script>
+
+        
+
+  <script src="javascripts/jquery.tweet.js"></script>
+
+        
+
+  <script src="javascripts/jquery.flickrush.pack.js"></script>
+
+        
+
+		<!--Hook up the tweet display-->
+
+  <script type='text/javascript'>
+
+			$(document).ready(function() {
+
+                              $(".tweet").tweet({
+
+                                                username : "themetroguy",
+
+                                                count : 3,
+
+                                                loading_text : "loading tweets..."
+
+                                                });
+
+                              });
+
+            </script>
+
+        
+
+  <script type='text/javascript'>
+
+			$(document).ready(function() {
+
+                              $(".tweet").tweet({
+
+                                                username : "themetroguy",
+
+                                                count : 3,
+
+                                                loading_text : "loading tweets..."
+
+                                                });
+
+                              });
+
+            </script>
+
+        
+
+		<!--Hook up the flickr feed-->
+
+		<!--find your flickr id http://idgettr.com/ -->
+
+  <script type="text/javascript">
+
+         $(document).ready(function() {
+
+         displayError();
+
+         popOption();
+
+         checkOption();
+
+         countRegistrationFee();
+
+         });
+
+         </script>
+
+         
+
+  <script type="text/javascript">
+
+         function getQuerystring(key, default_) {
+
+         if (default_ == null)
+
+         default_ = "";
+
+         key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+
+         var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+
+         var qs = regex.exec(window.location.href);
+
+         if (qs == null)
+
+         return default_;
+
+         else
+
+         return qs[1];
+
+         }
+
+         
+
+         function displayError() {
+
+         
+
+         var err = getQuerystring("error", "");
+
+         
+
+         if (err != "") {
+
+         document.getElementById("divError").style.display = "block";
+
+         document.getElementById("divError").innerHTML = decodeURI("<BR>" + err);
+
+         } else {
+
+         document.getElementById("divError").style.display = "none";
+
+         
+
+         }
+
+         
+
+         }
+
+         
+
+         function validateForm() {
+
+         var otxtFirstName = document.getElementById("txtFirstName");
+
+         var otxtLastName = document.getElementById("txtLastName");
+
+         var otxtPaperID = document.getElementById("txtPaperID");
+
+         var otxtOrg = document.getElementById("txtOrg");
+
+         var otxtAddr = document.getElementById("txtAddr");
+
+         var otxtPostal = document.getElementById("txtPostal");
+
+         var otxtCity = document.getElementById("txtCity");
+
+         var otxtEmail = document.getElementById("txtEmail");
+
+         var otxtReEnterEmail = document.getElementById("txtReEnterEmail");
+
+         //var otxtMemID= document.getElementById("txtMemID");
+
+         var otxtPassNo = document.getElementById("txtPassNo");
+
+         var otxtDOB = document.getElementById("txtDOB");
+
+         //var otxtCheckIn= document.getElementById("txtCheckIn");
+
+         //var otxtCheckOut= document.getElementById("txtCheckOut");
+
+         
+
+         var oslCountry = document.getElementById("slCountry");
+
+         var oslMember = document.getElementById("slMember");
+
+         
+
+         //for the workshop selection
+
+         //var oslInfinity= document.getElementById("slInfinity");
+
+         
+
+         var oslVisaSupportingLetter = document.getElementById("slVisaSupportingLetter");
+
+         var oslTermsConfirmation = document.getElementById("cTermConfirm");
+
+         
+
+         var oDay1Chk1 = document.getElementById("NotAttendForDay1");
+
+         var oDay1Chk2 = document.getElementById("d1_FM-TV'14");
+
+         var oDay1Chk3 = document.getElementById("d1_UTP'14");
+
+         //var oDay1Chk4 = document.getElementById("d1_QFM'14");
+
+         var oDay1Chk5 = document.getElementById("d1_FSFMA'14");
+
+         var oDay1Chk6 = document.getElementById("d1_Tutorial 2");
+
+         var oDay1Chk7 = document.getElementById("d1_Tutorial 5");
+
+         
+
+         var oDay2Chk1 = document.getElementById("NotAttendForDay2");
+
+         var oDay2Chk2 = document.getElementById("d2_AI4FM'14");
+
+         var oDay2Chk3 = document.getElementById("d2_UTP'14");
+
+         var oDay2Chk4 = document.getElementById("d2_ESSS'14");
+
+         var oDay2Chk5 = document.getElementById("d2_FSFMA'14");
+
+         var oDay2Chk6 = document.getElementById("d2_Tutorial 1");
+
+         var oDay2Chk7 = document.getElementById("d2_Tutorial 3 (am)");
+
+         var oDay2Chk8 = document.getElementById("d2_Tutorial 4 (pm)");
+
+         
+
+         
+
+         var oslAttendMainConference = document.getElementById("slAttendMainConference");
+
+         
+
+         
+
+         
+
+         /*
+
+         var oslHotel= document.getElementById("slHotel");
+
+         var osl1= document.getElementById("slh1");
+
+         var osl2= document.getElementById("slh2");
+
+         var osl3= document.getElementById("slh3");
+
+         var osl4= document.getElementById("slh4");
+
+         var osl5= document.getElementById("slh5");
+
+         var osl6= document.getElementById("slh6");
+
+         var osl7= document.getElementById("slh7");
+
+         var osl8= document.getElementById("slh8");
+
+         
+
+         */
+
+         if (oslTermsConfirmation.checked == false) {
+
+         alert("You have to confirm the acceptance of above terms before you can submit your order");
+
+         oslTermsConfirmation.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtPaperID)){
+
+         alert("Paper ID cannot be empty");
+
+         otxtPaperID.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtFirstName)) {
+
+         alert("First Name cannot be empty");
+
+         otxtFirstName.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtLastName)) {
+
+         alert("Last Name cannot be empty");
+
+         otxtLastName.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtOrg)) {
+
+         alert("Organization cannot be empty");
+
+         otxtOrg.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtAddr)) {
+
+         alert("Address cannot be empty");
+
+         otxtAddr.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtPostal)) {
+
+         alert("Postal code cannot be empty");
+
+         otxtPostal.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtCity)) {
+
+         alert("City cannot be empty");
+
+         otxtCity.focus();
+
+         return false;
+
+         } else if (IsEmpty(otxtEmail)) {
+
+         alert("Email cannot be empty");
+
+         otxtEmail.focus();
+
+         return false;
+
+         } else if (!IsEmailValid(otxtEmail)) {
+
+         alert("Email address is not in correct format");
+
+         otxtEmail.focus();
+
+         return false;
+
+         } else if (otxtEmail.value != otxtReEnterEmail.value) {
+
+         alert("Re-enter Email address is not the same as email address");
+
+         otxtReEnterEmail.focus();
+
+         return false;
+
+         } else if (oslCountry.value == 0) {
+
+         alert("Please select a country");
+
+         oslCountry.focus();
+
+         return false;
+
+         }else if (oslMember.value==0){
+
+         alert("Please select a member type");
+
+         oslMember.focus();
+
+         return false;
+
+         }else if (oslAttendMainConference.value==0){
+
+         alert("Please indicate whether you are attending the main conference");
+
+         oslAttendMainConference.focus();
+
+         return false;
+
+         }
+
+         else if(!(oDay1Chk1.checked ||
+
+         oDay1Chk2.checked ||
+
+         oDay1Chk3.checked ||
+
+         oDay1Chk4.checked ||
+
+         oDay1Chk5.checked ||
+
+         oDay1Chk6.checked ||
+
+         oDay1Chk7.checked
+
+         )){
+
+         oDay1Chk1.focus();
+
+         alert("Please select an option for Day 1 tutorial.");
+
+         
+
+         return false;
+
+         
+
+         }else if(!(oDay2Chk1.checked ||
+
+         oDay2Chk2.checked ||
+
+         oDay2Chk3.checked ||
+
+         oDay2Chk4.checked ||
+
+         oDay2Chk5.checked ||
+
+         oDay2Chk6.checked ||
+
+         oDay2Chk7.checked ||
+
+         oDay2Chk8.checked
+
+         )){
+
+         oDay2Chk1.focus();
+
+         alert("Please select an option for Day 2 tutorial.");
+
+         
+
+         return false;
+
+         }
+
+         /* else
+
+         if(oslMember.value==0 && oslInfinity.value==0) {
+
+         alert("You must register either for conference or workshop or tutorial");
+
+         oslMember.focus();
+
+         return false;
+
+         }
+
+         */
+
+         /*
+
+         else if(oslMember.value=="IEEE/ACM/SCS member" && IsEmpty(otxtMemID)){
+
+         alert("Please enter your IEEE/ACM/SCS member membership ID");
+
+         otxtMemID.focus();
+
+         return false;
+
+         }
+
+         */
+
+         else if (oslVisaSupportingLetter.value == "Yes" && IsEmpty(otxtDOB)) {
+
+         alert("Please enter your DOB");
+
+         otxtDOB.focus();
+
+         return false;
+
+         } else if (oslVisaSupportingLetter.value == "Yes" && !IsDateValid(otxtDOB)) {
+
+         alert("Format of Date of Birth is not correct, it should be in the format of DD/MM/YYYY (eg. 28/03/2010)");
+
+         otxtDOB.focus();
+
+         return false;
+
+         } else if (oslVisaSupportingLetter.value == "Yes" && IsEmpty(otxtPassNo)) {
+
+         alert("Please enter your passport number");
+
+         otxtPassNo.focus();
+
+         return false;
+
+         }
+
+         /*else if(oslHotel.value=="Yes" && IsEmpty(otxtCheckIn)){
+
+         alert("Please enter your check in date");
+
+         otxtCheckIn.focus();
+
+         return false;
+
+         }else if(oslHotel.value=="Yes" && !IsDateValid(otxtCheckIn)){
+
+         alert("Format of Check In Date is not correct, it should be in the format of DD/MM/YYYY (eg. 28/03/2010)");
+
+         otxtCheckIn.focus();
+
+         return false;
+
+         }else if(oslHotel.value=="Yes" && IsEmpty(otxtCheckOut)){
+
+         alert("Please enter your check out date");
+
+         otxtCheckOut.focus();
+
+         return false;
+
+         }else if(oslHotel.value=="Yes" && !IsDateValid(otxtCheckOut)){
+
+         alert("Format of Check Out Date is not correct, it should be in the format of DD/MM/YYYY (eg. 28/03/2010)");
+
+         otxtCheckOut.focus();
+
+         return false;
+
+         }else if(oslHotel.value=="Yes" && !compareDate(otxtCheckIn,otxtCheckOut)){
+
+         alert("Check In Date cannot be earlier than Check Out Date");
+
+         otxtCheckIn.focus();
+
+         return false;
+
+         }else if(oslHotel.value=="Yes" && (osl1.value+osl2.value+osl3.value+osl4.value+osl5.value+osl6.value+osl7.value+osl8.value)==0){
+
+         alert("Must choose at least one type of hotel room");
+
+         osl1.focus();
+
+         return false;
+
+         }	*/
+
+         return true;
+
+         }
+
+         
+
+         function numOfTutorialSelected(){
+
+         var num=$('.checkbox:checked').size();
+
+         
+
+         if($('#NotAttendForDay1').attr("checked")){
+
+         num--;
+
+         }
+
+         if($('#NotAttendForDay2').attr("checked")){
+
+         num--;
+
+         }
+
+         return num;
+
+         
+
+         }
+
+         
+
+         function IsEmpty(obj) {
+
+         // first we trim leading and trailing spaces
+
+         val = trim(obj.value);
+
+         
+
+         // now we check for the length of the string
+
+         // and return true when v is not an 'empty string'
+
+         return val.length == 0;
+
+         }
+
+         
+
+         // trim function that uses regex to replace the spaces
+
+         function trim(val) {
+
+         var ret = val.replace(/^\s+/, '');
+
+         ret = ret.replace(/\s+$/, '');
+
+         
+
+         return ret;
+
+         }
+
+         
+
+         function compareDate(earlyObj, laterObj) {
+
+         strEarly = earlyObj.value;
+
+         strLater = laterObj.value;
+
+         validRegExp = /^(\d{1,2})(\/)(\d{1,2})(\/)(\d{4})$/;
+
+         var matchEarly = strEarly.match(validRegExp);
+
+         var matchLater = strLater.match(validRegExp);
+
+         dEarly = new Date(matchEarly[5], matchEarly[3] - 1, matchEarly[1]);
+
+         dLater = new Date(matchLater[5], matchLater[3] - 1, matchLater[1]);
+
+         return (dLater >= dEarly);
+
+         }
+
+         
+
+         function IsDateValid(obj)// (dd/mm/yyyy)
+
+         {
+
+         strDOB = obj.value;
+
+         validRegExp = /^(\d{1,2})(\/)(\d{1,2})(\/)(\d{4})$/;
+
+         
+
+         var matchArray = strDOB.match(validRegExp);
+
+         // search email text for regular exp matches
+
+         
+
+         if (matchArray == null)
+
+         return false;
+
+         
+
+         day = matchArray[1];
+
+         // p@rse date into variables
+
+         
+
+         month = matchArray[3];
+
+         
+
+         year = matchArray[5];
+
+         month--;
+
+         
+
+         dteDate = new Date(year, month, day);
+
+         return ((day == dteDate.getDate()) && (month == dteDate.getMonth()) && (year == dteDate.getFullYear()));
+
+         
+
+         }
+
+         
+
+         function IsEmailValid(obj) {
+
+         strEmail = obj.value;
+
+         validRegExp = /^[^@]+@[^@]+.[a-z]{2,}$/i;
+
+         // search email text for regular exp matches
+
+         if (strEmail.search(validRegExp) == -1) {
+
+         //alert('A valid e-mail address is required.\nPlease amend and retry');
+
+         return false;
+
+         }
+
+         return true;
+
+         }
+
+         
+
+         function checkConflict(v) {
+
+         
+
+         var val = document.getElementById("slMember").value;
+
+         //var val1=document.getElementById("slInfinity").value;
+
+         if (val != 0 /*&& val1!=0*/) {
+
+         alert("You can only choose either conference or workshop but not both.");
+
+         var val = document.getElementById(v).value = 0;
+
+         }
+
+         
+
+         }
+
+         
+
+         function checkOption() {
+
+         var val = document.getElementById("slMember").value;
+
+         var val1 = document.getElementById("slVisaSupportingLetter").value;
+
+         var objMember = document.getElementById("spMember");
+
+         var objDOB = document.getElementById("trDOB");
+
+         var objPassport = document.getElementById("trPassport");
+
+         var objtxtDOB = document.getElementById("txtDOB");
+
+         var objtxtPassNo = document.getElementById("txtPassNo");
+
+         //var objtxtMemID=document.getElementById("txtMemID");
+
+         //===hotel====
+
+         //var valHotel=document.getElementById("slHotel").value;
+
+         //var objRows=document.getElementsByTagName("tr");
+
+         
+
+         //===hotel===
+
+         //if(val=="IEEE/ACM/SCS member") {objMember.style.display="inline";}else {objMember.style.display="none";objtxtMemID.value="";}
+
+         if (val1 == "Yes") {
+
+         objDOB.style.display = "";
+
+         objPassport.style.display = "";
+
+         } else {
+
+         objDOB.style.display = "none";
+
+         objPassport.style.display = "none";
+
+         objtxtPassNo.value = "";
+
+         objtxtDOB.value = "";
+
+         }
+
+         /*
+
+         if(valHotel=="Yes") {
+
+         //objRow1.style.display="";
+
+         //objRow2.style.display="";
+
+         
+
+         for(i=0;i<objRows.length;i++){
+
+         if(objRows[i].className=="hotelRoomRow")
+
+         objRows[i].style.display="";
+
+         }
+
+         }else {
+
+         //objRow1.style.display="none";
+
+         //objRow2.style.display="none";
+
+         for(i=0;i<objRows.length;i++){
+
+         
+
+         if(objRows[i].className=="hotelRoomRow")
+
+         objRows[i].style.display="none";
+
+         }
+
+         }
+
+         */
+
+         }
+
+         
+
+         function checkIsLate() {
+
+         //var curr="04/13/13";
+
+         //var curr=  07/07/14;
+
+        //var curr="07/07/14";
+
+        var curr = new Date();
+
+        //alert(temp.getDate());
+
+        //alert(temp.getMonth());
+
+        //alert(temp.getYear());
+
+        //alert((temp.getMonth()+1) + '/' + temp.getDate() + '/' + (temp.getYear()-100));
+
+        
+
+        var form_curr;
+
+        if (curr.getMonth() < 9) {
+
+            form_curr = '0' + (curr.getMonth() + 1) + '/' + curr.getDate();
+
+            } else {
+
+            form_curr = (curr.getMonth() + 1) + '/' + curr.getDate();
+
+            }
+
+            
+
+            if (curr.getYear() > 2000) {
+
+            form_curr += '/' + (curr.getYear() - 2000);
+
+            } else {
+
+            form_curr += '/' + (curr.getYear() - 100);
+
+            }
+
+            
+
+            //alert(form_curr);
+
+            
+
+            //var form_curr="08/19/10";
+
+            var late = "04/06/14";
+
+            var aCurr = form_curr.split("/");
+
+            var aLate = late.split("/");
+
+            
+
+            var isLate = aCurr[2] > aLate[2];
+
+            if (parseInt(aCurr[2]) == parseInt(aLate[2])) {
+
+            isLate = parseInt(aCurr[0]) > parseInt(aLate[0]);
+
+            if (parseInt(aCurr[0]) == parseInt(aLate[0])) {
+
+            isLate = (parseInt(aCurr[1]) >= parseInt(aLate[1]));
+
+            }
+
+            }
+
+            document.getElementById("hIsLate").value = isLate;
+
+            return isLate;
+
+            
+
+			}
+
+			
+
+			
+
+            
+
+			function countRegistrationFee() {
+
+            
+
+            var memRegisterType = document.getElementById("slMember").value;
+
+            //var extraPapgesNumber = document.getElementById("sExtraPages").value;
+
+            //	var infRegisterType=document.getElementById("slInfinity").value;
+
+            var outputField = document.getElementById("tdMoney");
+
+            var totPrice = document.getElementById("slDinner").value * 90;
+
+            
+
+            //	var sixSigma=document.getElementById("slSixSigmaCourse").value;
+
+            //	var RiskBased=document.getElementById("slRiskBasedCourse").value;
+
+            
+
+            var oInfPrice = document.getElementById("hInfinity");
+
+            var oMemPrice = document.getElementById("hMemPrice");
+
+            var oTotPrice = document.getElementById("hTotPrice");
+
+            
+
+            var isLate = checkIsLate();
+
+            
+
+            var numOfTutorials = numOfTutorialSelected();
+
+            var attendMainConference = ($("#slAttendMainConference").val())=="Yes";
+
+            var NoAttendMainConference = ($("#slAttendMainConference").val())=="No";
+
+            var day1List="";
+
+            var day2List="";
+
+            $('.Day1Tutorial input:checkbox').each(
+
+            function(){
+
+            if ($(this).is(':checked')) {
+
+            day1List += $(this).val() +"; ";
+
+            }
+
+            });
+
+			
+
+			$('.Day2Tutorial input:checkbox').each(
+
+            function(){
+
+            if ($(this).is(':checked')) {
+
+            day2List += $(this).val() +"; ";
+
+            }
+
+            });
+
+			
+
+			$("#hDay1Tutorial").val(day1List);
+
+			$("#hDay2Tutorial").val(day2List);
+
+            /*
+
+            if( extraPapgesNumber == "1 Page")
+
+            totPrice +=150;
+
+            if( extraPapgesNumber == "2 Pages")
+
+            totPrice +=300;
+
+            */
+
+            if (!isLate) {
+
+            if (memRegisterType == "PCMember" && attendMainConference) {
+
+            
+
+            if(numOfTutorials==0){
+
+            totPrice += 750;
+
+            oMemPrice.value = 750;
+
+            }else{
+
+            totPrice += 900;
+
+            oMemPrice.value = 900;
+
+            }
+
+            
+
+            }
+
+            else if (memRegisterType == "Student" && attendMainConference) {
+
+            
+
+            if(numOfTutorials==0){
+
+            totPrice += 550;
+
+            oMemPrice.value = 550;
+
+            }else{
+
+            totPrice += 700;
+
+            oMemPrice.value = 700;
+
+            }
+
+            
+
+            }
+
+            else if (memRegisterType == "NonPCMember" && attendMainConference) {
+
+            
+
+            if(numOfTutorials==0){
+
+            totPrice += 850;
+
+            oMemPrice.value = 850;
+
+            }else{
+
+            totPrice += 1000;
+
+            oMemPrice.value = 1000;
+
+            }
+
+            
+
+            }else if((memRegisterType == "PCMember" || memRegisterType == "Student" || memRegisterType == "NonPCMember")&&NoAttendMainConference){
+
+            totPrice += numOfTutorials * 150;
+
+            oMemPrice.value = numOfTutorials * 150;
+
+            
+
+            }
+
+            
+
+            
+
+            /*else if (memRegisterType == "RegularPCWeek") {
+
+            totPrice += 900;
+
+            oMemPrice.value = 900;
+
+            }
+
+            else if (memRegisterType == "RegularWeek") {
+
+            totPrice += 1000;
+
+            oMemPrice.value = 1000;
+
+            } else if (memRegisterType == "StudentWeek") {
+
+            totPrice += 650;
+
+            oMemPrice.value = 650;
+
+            } else if (memRegisterType == "OneDayWS") {
+
+            totPrice += 150;
+
+            oMemPrice.value = 150;
+
+            } */
+
+            /*else if (memRegisterType == "TwoDayWS") {
+
+            totPrice += 300;
+
+            oMemPrice.value = 300;
+
+            } else if (memRegisterType == "ChineseWS") {
+
+            totPrice += 250;
+
+            oMemPrice.value = 250;
+
+            }*/
+
+            
+
+            //totPrice=-1;
+
+            //oMemPrice.value="";
+
+            //		totPrice+=sixSigma*630;
+
+            //		totPrice+=RiskBased*315;
+
+            
+
+            if (totPrice == 0) {
+
+            totPrice = -1;
+
+            oTotPrice.value = "";
+
+            oMemPrice.value = "";
+
+            oInfPrice.value = "";
+
+            }
+
+            
+
+            } else {
+
+            if ((memRegisterType == "PCMember" ||memRegisterType == "NonPCMember")&& attendMainConference) {
+
+            
+
+            if(numOfTutorials==0){
+
+            totPrice += 1050;
+
+            oMemPrice.value = 1050;
+
+            }else{
+
+            totPrice += 1200;
+
+            oMemPrice.value = 1200;
+
+            }
+
+            
+
+            }
+
+            else if (memRegisterType == "Student" && attendMainConference) {
+
+            
+
+            if(numOfTutorials==0){
+
+            totPrice += 650;
+
+            oMemPrice.value = 650;
+
+            }else{
+
+            totPrice += 750;
+
+            oMemPrice.value = 750;
+
+            }
+
+            
+
+            }
+
+            else if((memRegisterType == "PCMember" || memRegisterType == "Student" || memRegisterType == "NonPCMember")&&NoAttendMainConference){
+
+            totPrice += numOfTutorials * 200;
+
+            oMemPrice.value = numOfTutorials * 200;
+
+            
+
+            }
+
+            
+
+            
+
+            
+
+            /*else if (memRegisterType == "ChineseWS") {
+
+            totPrice += 250;
+
+            oMemPrice.value = 250;
+
+            } else if (memRegisterType == "TwoDayWS") {
+
+            totPrice += 400;
+
+            oMemPrice.value = 400;
+
+            }*/
+
+            /*
+
+            else{
+
+            totPrice=-1;
+
+            oMemPrice.value="";
+
+            }
+
+            */
+
+            //totPrice+=sixSigma*700;
+
+            //totPrice+=RiskBased*350;
+
+            
+
+            if (totPrice == 0) {
+
+            totPrice = -1;
+
+            oTotPrice.value = "";
+
+            oMemPrice.value = "";
+
+            oInfPrice.value = "";
+
+            }
+
+            }
+
+            
+
+            if (totPrice > 0) {
+
+            outputField.style.display = "block";
+
+            oTotPrice.value = totPrice;
+
+            outputField.innerHTML = '<span style="font-weight:bold">Registration Fee:</span> <span style="color:#0557c0;font-weight:bold;font-size:15px">SGD ' + totPrice + '</span>';
+
+            } else {
+
+            outputField.style.display = "none";
+
+            
+
+            }
+
+			}
+
+            
+
+			function addOption(selectbox, text, value) {
+
+            var optn = document.createElement("OPTION");
+
+            optn.text = text;
+
+            optn.value = value;
+
+            selectbox.options.add(optn);
+
+			}
+
+            
+
+			function popOption() {
+
+            var MemList = document.getElementById("slMember");
+
+            // var InfinityList=document.getElementById("slInfinity");
+
+            var optn = document.createElement("OPTION");
+
+            var isLate = checkIsLate();
+
+            //if (!isLate) {
+
+            /*
+
+            addOption(MemList, "Regular Main conference (FME/PC Member) - SGD 750", "RegularPCMain");
+
+            addOption(MemList, "Regular Main conference (Non FME/PC Member) - SGD 850", "RegularMain");
+
+            addOption(MemList, "Student Main conference - SGD 550", "StudentMain");
+
+            addOption(MemList, "Regular 1 week (FME/PC Member) - SGD 900", "RegularPCWeek");
+
+            addOption(MemList, "Regular 1 week - SGD 1000", "RegularWeek");
+
+            addOption(MemList, "Student 1 week - SGD 650", "StudentWeek");
+
+            addOption(MemList, "Workshop/Industry/Tutorial - SGD 150", "OneDayWS");
+
+            */
+
+            addOption(MemList, "Reguarly Registration", "NonPCMember");
+            
+            addOption(MemList, "Student Registration", "Student");
+                             
+            //addOption(MemList, "FME Board Member/FM14 PC Member", "PCMember");
+
+            
+
+            
+
+            //addOption(MemList, "Regular Main conference (FME/PC Member) - SGD 750", "RegularPCMain");
+
+            
+
+            /*} else {
+
+            
+
+            addOption(MemList, "Regular Main conference (FME/PC Member) - SGD 1050", "RegularPCMain");
+
+            addOption(MemList, "Regular Main conference (Non FME/PC Member) - SGD 1050", "RegularMain");
+
+            addOption(MemList, "Student Main conference - SGD 650", "StudentMain");
+
+            addOption(MemList, "Regular 1 week (FME/PC Member) - SGD 1200", "RegularPCWeek");
+
+            addOption(MemList, "Regular 1 week - SGD 1200", "RegularWeek");
+
+            addOption(MemList, "Student 1 week - SGD 750", "StudentWeek");
+
+            addOption(MemList, "Workshop/Industry/Tutorial - SGD 200", "OneDayWS");
+
+            
+
+            }*/
+
+            
+
+			}
+
+            </script>
+
+            
+
+            <!--slight variant on Chris Coyier's http://css-tricks.com/convert-menu-to-dropdown/ -->
+
+            
+
+  <script type="text/javascript">
+
+                
+
+                $(document).ready(function() {
+
+                                  $('div .checkbox').click(function () { 				
+
+                                                           checkedState = $(this).attr('checked');
+
+                                                           var b= ($(this).attr('id')=='d2_Tutorial 3 (am)') || ($(this).attr('id')=='d2_Tutorial 4 (pm)');
+
+                                                           
+
+                                                           $(this).parent('div').children('.checkbox:checked').each(function () {
+
+                                                                                                                    var b1= ($(this).attr('id')=='d2_Tutorial 3 (am)') || ($(this).attr('id')=='d2_Tutorial 4 (pm)');
+
+                                                                                                                    
+
+                                                                                                                    if(!(b && b1)){
+
+                                                                                                                    $(this).attr('checked', false);
+
+                                                                                                                    
+
+                                                                                                                    
+
+                                                                                                                    }
+
+                                                                                                                    });
+
+                                                           $(this).attr('checked', checkedState);
+
+                                                           
+
+                                                           checkOption();countRegistrationFee();
+
+                                                           //$('#hTotTutorial').val(checkboxCount);
+
+                                                           
+
+                                                           });
+
+                                  // Create the dropdown bases
+
+                                  $("<select />").appendTo(".navigation nav");
+
+                                  
+
+                                  // Create default option "Go to..."
+
+                                  $("<option />", {
+
+                                    "selected" : "selected",
+
+                                    "value" : "",
+
+                                    "text" : "Go to..."
+
+                                    }).appendTo("nav select");
+
+                                  
+
+                                  // Populate dropdowns with the first menu items
+
+                                  $(".navigation nav li a").each(function() {
+
+                                                                 var el = $(this);
+
+                                                                 $("<option />", {
+
+                                                                   "value" : el.attr("href"),
+
+                                                                   "text" : el.text()
+
+                                                                   }).appendTo("nav select");
+
+                                                                 });
+
+                                  
+
+                                  //make responsive dropdown menu actually work
+
+                                  $("nav select").change(function() {
+
+                                                         window.location = $(this).find("option:selected").val();
+
+                                                         });
+
+                                  
+
+                                  });
+
+                </script><!-- End Document
+
+                          ================================================== -->
+
+		
+
+
+
+
+<!-- <p>Presenters are required to register before September 12, 2013. </p>
+
+<p>Participants are urged to register before October 20, 2013 to obtain the advanced registration fee. </p>
+
+On-site registration will be available at the registration desk during the period of PRDC 2013. 
+
+    <h3>Registration Fees</h3>
+
+    <table border=1 cellspacing=0 cellpadding=3>
+      <tr bgcolor="#cccccc">
+        <th></th>
+        <th>Until October 20, 2013</th>
+	<th>October 21, 2013</th>
+      </tr>
+      <tr>
+        <td>IEEE Member</td>
+	<td align=right>USD 800.00</td>
+	<td align=right>USD 950.00</td>
+      </tr>
+      <tr>
+        <td>Non-Member</td>
+	<td align=right>USD 1000.00</td>
+	<td align=right>USD 1200.00</td>
+      </tr>
+      <tr>
+        <td>IEEE Student Member</td>
+	<td align=right>USD 500.00</td>
+	<td align=right>USD 625.00</td>
+      </tr>
+      <tr>
+        <td>Student Non-Member</td>
+	<td align=right>USD 625.00</td>
+	<td align=right>USD 775.00</td>
+      </tr>
+      <tr>
+        <td>IEEE life retired member</td>
+	<td align=right>USD 500.00</td>
+	<td align=right>USD 575.00</td>
+      </tr>
+    </table>
+
+    <p>Additional banquet tickets are available at USD 92.00 per ticket. Additional excursion ticket are available at USD 38.00 per ticket.</p>
+ 
+    <p>Registration fee includes:</p>
+      <ul>
+            <li>All sessions, USB proceedings, reception, banquet, excursion, and lunch.</li>
+      </ul>
+
+<h4>Visa Application</h4>
+If you have any questions on obtaining an entry visa to attend the PRDC conference, please contact General Chair Karthik Pattabiraman at karthikp@ece.ubc.ca.
+
+<h4>Acceptable Documents for Proof of Student Status</h4>
+To confirm you are currently a student, please bring any one of the
+following documents to the conference:
+<ol>
+<li> Valid student ID
+<li> Letter of confirmation from the school or advisor on school letterhead
+<li> Current Registration/enrollment receipt from your school
+</ol>
+Each document must contain all of the following information:
+<ol>
+<li> Your name
+<li> The full name of your school
+<li> A date showing that you are currently a student.
+</ol>
+
+ <h2>Hotel Reservation</h2>
+
+<p> 
+PRDC 2013 will be held at the Marriot Pinnacle downtown, Vancouver. 
+The Marriot Pinnacle is located near the waterfront and is within walking distance to 
+downtown area shopping and attractions. 
+Hotel rooms are available on a first-come-first-serve basis at discounted price of $129 CAD per night (excluding tax) for the conference attendees. Please reserve your room at the earliest convenience, but no later than Oct 1st at <a href="https://resweb.passkey.com/go/IEEEPacificRim2013">this link</a>.
+ -->
+  
+  <div id="footer">
+    <p>Copyright &copy; PRDC 2015</p>
+  </div>
+</div>
+</body>
+</html>

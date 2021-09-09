@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<title>PRDC 2018</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+		<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="images/PRDC.ico" rel="shortcut icon" />
+		<style type="text/css">
+			<!-- .STYLE1 {
+				font-size: 14px
+				}
+				-->
+		</style>
+		<script>
+			$.ajaxSetup ({
+			          	// Disable caching of AJAX responses
+			          	cache: false
+			      	});
+			
+			$(function(){
+			$("#header").load("header.html");
+			$("#navigation").load("navigation.html");
+			});
+		</script>	
+	</head>
+	<body>
+		<div id="container">
+			<div id="header"></div>
+			<div id="navigation"></div>
+			<div id="content">
+				<p><strong><a name="k1">Keynote Speaker 1: </a></strong><a href="http://www.deeds.informatik.tu-darmstadt.de/suri">Prof. Neeraj Suri</a>, Technische Universität Darmstadt, Germany <br />
+					<br/>
+					<strong>Title</strong>: &nbsp;Kicking and Fixing Software: The Fun &amp Science of Experimental Approaches  
+				</p>
+				<p align="justify"><strong>Abstract:</strong>&nbsp;The perpetual elusiveness of correct-by-design software fosters the need of techniques to "find and fix" software deficiencies whether they arise from design, operational or deliberate instances. Operating Systems are of particular interest given the software size, complexity and their need to operate for a wide range of stresses. With the intent of post-design software fixes, the talk ruminates on the fun, value and science of experimental techniques to "kick n' fix" software.</p>
+				<p align="justify"><img src="images/neeraj_suri.jpg" alt="" width="132"   style="float:left;margin-right:10px;"><strong>Suri</strong> holds the TUD Chair Professorship on “Dependable Systems &amp Software” at TU Darmstadt, Germany and is also affiliated with Microsoft. Following his PhD at UMass-Amherst, he has held positions at Boston Univ, Saab Endowed Chair Professor, sabbaticals at Microsoft Research, and visiting positions at the Univ of Texas at Austin and Technion. His research has received trans-national funding from NSF/DARPA/DHS/ONR/AFOSR European Commission, German DFG/BMBF/DAAD/Loewe, Microsoft, IBM, Google, Apple, Boeing, GM, NASA, Airbus, SAP, NEC, Hitachi, Saab, Volvo, Daimler among others. He is a recipient of the NSF CAREER, Microsoft and IBM Faculty Awards. Suri's professional services span A-EIC for IEEE TDSC, editorial boards for IEEE TSE, Trans. Big Data (TBD), Trans. Cloud Computing (TCC), TPDS, ACM Computing Surveys, IEEE Security &amp Privacy and others. He has PC-chaired multiple dependability conferences and serves on advisory boards for Microsoft and multiple other US/EU/Asia industry and university boards. Suri chaired the IEEE Technical Committee on Dependability and Fault Tolerance, and it's Steering Committee. Additional professional details appear at: www.deeds.informatik.tu-darmstadt.de/suri</p>
+				<br/>
+				<hr />
+				<p><strong><a name="k2">Keynote Speaker 2: </a></strong><a href="https://ece.duke.edu/faculty/kishor-trivedi">Prof. Kishor S. Trivedi</a>, Duke University, United States<br />
+					<br />
+					<strong>Title</strong>:&nbsp;Software Fault Tolerance via Environmental Diversity 
+				</p>
+				<p align="justify"> 
+					<strong>Abstract</strong>:&nbsp; Complex systems in different domains contain significant amount of software. Several recent studies have established that a significant fraction of system outages are due to software faults. Traditional methods of fault avoidance, fault removal based on extensive testing/debugging, and fault tolerance based on design/data diversity are found wanting. The key challenge then is how to provide highly dependable software. We discuss a new view of fault tolerance of software-based systems. We classify software faults into <i>Bohrbugs</i> and <i>Mandelbugs</i>, and identify aging-related bugs as a subtype of the latter. Traditional methods have been designed to deal with Bohrbugs. The next challenge then is to develop mitigation methods for Mandelbugs in general and aging-related bugs in particular. We submit that mitigation methods for Mandelbugs utilize <i>environmental diversity</i>. Retry operation, restart application, failover to an identical replica (hot, warm or cold) and reboot the OS are examples of mitigation techniques that rely on environmental diversity. For <i>software aging</i> related bugs it is also possible to utilize proactive environmental diversity technique known as <i>software rejuvenation</i>. We discuss environmental diversity both from experimental and analytic points of view and cite examples of real systems employing these techniques. 
+				</p>
+				<p align="justify"><img src="images/kishor.jpg" width="132"  style="float:left;margin-right:10px;">
+					<strong>Kishor S. Trivedi</strong> holds the Hudson Chair in the Department of Electrical and Computer Engineering at Duke University, Durham, NC. He has a B.Tech (EE, 1968) from IIT Mumbai, M.S. (CS, 1972) and PhD (CS, 1974) from the University of Illinois, Urbana-Champaign.  He has been on the Duke faculty since 1975. He is the author of a well-known text entitled, Probability and Statistics with Reliability, Queuing and Computer Science Applications, first published by Prentice-Hall; a thoroughly revised second edition (including its Indian edition) of this book has been published by John Wiley. He is a Life Fellow of the Institute of Electrical and Electronics Engineers. He is a Golden Core Member of IEEE Computer Society. He has published over 600 articles and has supervised 46 Ph.D. dissertations. He is the recipient of IEEE Computer Society Technical Achievement Award for his research on Software Aging and Rejuvenation. His research interests in are in reliability, availability, performance, performability and survivability modeling of computer and communication systems. He works closely with industry in carrying our reliability/availability analysis, providing short courses on reliability, availability, performability modeling and in the development and dissemination of software packages such as SHARPE and SPNP. His URL is www.ee.duke.edu/~ktrivedi
+				</p>
+			</div>
+			<div id="footer">
+				<p>Copyright &copy; PRDC 2018</p>
+			</div>
+		</div>
+	</body>
+</html>
+
