@@ -12,11 +12,11 @@
 		"吳旻杰",
 		"張禾金",
 		"謝立德",
-		"Sanoop Mallissery",
-		"李泓暐"
+		"Sanoop Mallissery" 
 	);
 
 	$alumni = array(
+		"李泓暐",
 		"呂翰漳",
 		"鮑俊安",
 		"彭珮婷",
