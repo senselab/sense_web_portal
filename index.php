@@ -110,7 +110,7 @@
 	</div>
 
 	<div class="bs-callout bs-callout-info">
-	SENSE Lab is located at EC528 and EC223A, Engineering Building III, on the National Chiao Tung University campus.
+	SENSE Lab is located at EC528 and EC223A, Engineering Building III, on the National Yang Ming Chiao Tung University campus.
 	</div>
 
 </div><!-- container -->

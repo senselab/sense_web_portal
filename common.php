@@ -31,9 +31,9 @@
 <footer class="footer">
 	<div class="container">
 	<hr/>
-<p class="text-muted">&copy; 2008-2019
+<p class="text-muted">&copy; 2008-2023
 Laboratory of SEcurity aNd SystEms <br/>
-Department of Computer Science, National Chiao Tung University<br/></p>
+Department of Computer Science, National Yang Ming Chiao Tung University<br/></p>
 	</div>
 </footer>
 <?php
