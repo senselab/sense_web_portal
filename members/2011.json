@@ -1,0 +1,101 @@
+{
+  "曹文豪": {
+    "cname": "曹文豪",
+    "ename": null,
+    "from": 2011,
+    "to": -1,
+    "class": "Undergraduate Project Student",
+    "with": null,
+    "email": "mageolican@gmail.com",
+    "link": "https://www.facebook.com/wenhao.tsao.50",
+    "photo": "曹文豪_1.jpg"
+  },
+  "呂松澤": {
+    "cname": "呂松澤",
+    "ename": null,
+    "from": 2011,
+    "to": 2013,
+    "class": "Master",
+    "with": "Phison (群聯電子)",
+    "email": "ttin654@gmail.com",
+    "link": "https://www.facebook.com/profile.php?id=100000013341731&fref=ts",
+    "photo": "呂松澤_1.jpg"
+  },
+  "蔡孟儒": {
+    "cname": "蔡孟儒",
+    "ename": null,
+    "from": 2011,
+    "to": 2013,
+    "class": "Master",
+    "with": "Synology (群暉科技)",
+    "email": "vtxyer@gmail.com",
+    "link": "https://www.facebook.com/vtxyer",
+    "photo": "蔡孟儒_1.jpg"
+  },
+  "蔡宗翰": {
+    "cname": "蔡宗翰",
+    "ename": null,
+    "from": 2011,
+    "to": 2013,
+    "class": "Master",
+    "with": "Synology (群暉科技)",
+    "email": "smartPG@gmail.com",
+    "link": "https://www.facebook.com/pg.tsai",
+    "photo": "蔡宗翰_1.jpg"
+  },
+  "梁嘉碧": {
+    "cname": "梁嘉碧",
+    "ename": null,
+    "from": 2011,
+    "to": -1,
+    "class": "Undergraduate Project Student",
+    "with": null,
+    "email": "ka_bigbig@hotmail.com",
+    "link": null,
+    "photo": "梁嘉碧_1.png"
+  },
+  "黃泰順": {
+    "cname": "黃泰順",
+    "ename": null,
+    "from": 2011,
+    "to": -1,
+    "class": "Undergraduate Project Student",
+    "with": null,
+    "email": "advancedor96@hotmail.com",
+    "link": "https://www.facebook.com/advancedor96",
+    "photo": "黃泰順_1.jpg"
+  },
+  "許晏峻": {
+    "cname": "許晏峻",
+    "ename": null,
+    "from": 2011,
+    "to": 2013,
+    "class": "Master",
+    "with": "MediaTek (聯發科技)",
+    "email": "head2568.cs96@g2.nctu.edu.tw",
+    "link": "https://www.facebook.com/yenchun.hsu",
+    "photo": "許晏峻_1.jpg"
+  },
+  "高宏任": {
+    "cname": "高宏任",
+    "ename": null,
+    "from": 2011,
+    "to": -1,
+    "class": "Undergraduate Project Student",
+    "with": null,
+    "email": "endless-dreaming@hotmail.com",
+    "link": "https://www.facebook.com/hong.jen.zai",
+    "photo": "高宏任_1.jpg"
+  },
+  "余其龍": {
+    "cname": "余其龍",
+    "ename": null,
+    "from": 2011,
+    "to": -1,
+    "class": "Undergraduate Project Student",
+    "with": null,
+    "email": "darkleong@gmail.com",
+    "link": null,
+    "photo": "余其龍_1.png"
+  }
+}
