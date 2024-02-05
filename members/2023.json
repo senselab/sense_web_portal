@@ -9,5 +9,60 @@
     "email": "alexwei0602@gmail.com",
     "link": "https://www.facebook.com/jozy.sda",
     "photo": "黃秉為_1.jpg"
+  },
+  "李亭萱": {
+    "cname": "李亭萱",
+    "ename": null,
+    "from": 2023,
+    "to": -1,
+    "class": "Master",
+    "with": null,
+    "email": null,
+    "link": null,
+    "photo": null
+  },
+  "張睿安": {
+    "cname": "張睿安",
+    "ename": null,
+    "from": 2023,
+    "to": -1,
+    "class": "Master",
+    "with": null,
+    "email": null,
+    "link": null,
+    "photo": null
+  },
+  "蘇志東": {
+    "cname": "蘇志東",
+    "ename": null,
+    "from": 2023,
+    "to": -1,
+    "class": "Master",
+    "with": null,
+    "email": null,
+    "link": null,
+    "photo": null
+  },
+  "陳彥瑋": {
+    "cname": "陳彥瑋",
+    "ename": null,
+    "from": 2023,
+    "to": -1,
+    "class": "Master",
+    "with": null,
+    "email": "frank1314168@gmail.com",
+    "link": "https://linktr.ee/ywchen",
+    "photo": "陳彥瑋_1.jpg"
+  },
+  "陳允觀": {
+    "cname": "陳允觀",
+    "ename": null,
+    "from": 2023,
+    "to": -1,
+    "class": "Master",
+    "with": null,
+    "email": null,
+    "link": null,
+    "photo": null
   }
 }
