@@ -8,6 +8,6 @@
 Undergraduate project student</small></br>
 <ul class="pagination pagination-sm margin-v4px">
 <li><a href="mailto:marissamathurin@hotmail.com"><span class="fa fa-envelope-o"></span></a></li>
-<li><a href="http://sense.cs.nctu.edu.tw" target="_blank"><span class="fa fa-link"></span></a></li>
+<li><a href="http://sense.cs.nycu.edu.tw" target="_blank"><span class="fa fa-link"></span></a></li>
 </ul>
 </div>
